@@ -1,0 +1,101 @@
+.todoapp {
+  padding: 1ren;
+  display: flex;
+  flex-flow: column nowrap;
+
+  justify-content: center;
+  align-items: center;
+  &__header {
+    // background-color: whitesmoke;
+  }
+  &__h1 {
+    // color: red;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: lighter;
+    color: rgb(199, 0, 0);
+  }
+  &__input {
+    border-style: none;
+    border-bottom: solid 0.5px rgb(143, 143, 143);
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+}
+.global {
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  // gap: 1rem;
+}
+.main {
+  // padding: 1rem;
+  &__input {
+  }
+  &__label {
+  }
+  &__ul {
+    padding: 0rem;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+  }
+  &__li {
+    border-bottom: solid 0.5px rgb(143, 143, 143);
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+  &__container {
+  }
+  &__btn {
+  }
+  &__subcontainer {
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+.footer {
+  // background-color: red;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+
+  &__ul {
+    display: flex;
+    color: black;
+    gap: 1rem;
+  }
+  &__a {
+    border: solid 0.2px rgb(230, 230, 230);
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+  &__btn {
+    border-style: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+}
+
+.info {
+  display: flex;
+  flex-flow: column nowrap;
+  // gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  &__p {
+    font-size: 0.8rem;
+  }
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
