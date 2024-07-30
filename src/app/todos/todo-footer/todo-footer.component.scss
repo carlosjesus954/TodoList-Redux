@@ -1,0 +1,40 @@
+.footer {
+  // background-color: red;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+  &__ul {
+    display: flex;
+    color: black;
+    gap: 1rem;
+  }
+  &__a {
+    border: solid 0.2px rgb(230, 230, 230);
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+  &__btn {
+    border-style: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    border: transparent 1px red;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    &:hover {
+      border: solid 1px red;
+    }
+  }
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}

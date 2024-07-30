@@ -1,0 +1,27 @@
+.todolist {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+  &__h1 {
+    color: red;
+    font-weight: lighter;
+    font-size: 2ren;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  &__container {
+    background-color: white;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    width: 100%;
+    max-width: 35rem;
+  }
+  &__subcontainer {
+  }
+  &__h2 {
+    font-weight: lighter;
+    color: red;
+    text-align: center;
+  }
+}

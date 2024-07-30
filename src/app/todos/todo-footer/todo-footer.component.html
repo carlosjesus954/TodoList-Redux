@@ -1,1 +1,18 @@
-<p>todo-footer works!</p>
+<footer class="footer">
+  <!-- This should be `0 items left` by default -->
+  <span class="footer__span"><strong>0</strong> tareas pendientes</span>
+  <!-- Remove this if you don't implement routing -->
+  <ul class="footer__ul">
+    <li>
+      <a class="footer__a" href="#/">Todos</a>
+    </li>
+    <li>
+      <a class="footer__a" href="#/active">Activos</a>
+    </li>
+    <li>
+      <a class="footer__a" href="#/completed">Completados</a>
+    </li>
+  </ul>
+  <!-- Hidden if no completed items are left ↓ -->
+  <button class="footer__btn">Borrar tareas completadas</button>
+</footer>

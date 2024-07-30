@@ -1,0 +1,17 @@
+.main {
+  &__li {
+    border-bottom: solid 0.5px rgb(143, 143, 143);
+    width: 100%;
+    // padding: 1rem;
+    list-style: none;
+    padding-bottom: 1rem;
+  }
+  &__container {
+  }
+  &__btn {
+  }
+  &__subcontainer {
+    display: flex;
+    gap: 1rem;
+  }
+}

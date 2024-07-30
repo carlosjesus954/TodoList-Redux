@@ -1,0 +1,8 @@
+.main {
+  &__ul {
+    padding: 0rem;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+  }
+}
