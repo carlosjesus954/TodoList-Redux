@@ -6,6 +6,9 @@
     list-style: none;
     padding-bottom: 1rem;
   }
+  &__li--completed {
+    text-decoration: dashed;
+  }
   &__container {
   }
   &__btn {

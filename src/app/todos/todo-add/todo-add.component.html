@@ -1,1 +1,7 @@
-<input class="input" placeholder="¿ Qué quieres hacer ?" autofocus />
+<input
+  class="input"
+  placeholder="¿ Qué quieres hacer ?"
+  [formControl]="txtInput"
+  (keyup.enter)="agregar()"
+  autofocus
+/>
