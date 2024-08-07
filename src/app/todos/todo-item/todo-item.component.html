@@ -4,6 +4,9 @@
       class="main__edit"
       [ngClass]="editando ? 'main__input--edit' : ''"
       type="text"
+      [placeholder]="todo.texto"
+      (blur)="terminarEdicion()"
+      [formControl]="txtInput"
       #inputFisico
       (keyup.enter)="editarTodo()"
     />
@@ -36,7 +39,7 @@
           />
         </svg>
       </button>
-      <button class="main__btn">
+      <button class="main__btn" (click)="destroy()">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="currentColor"

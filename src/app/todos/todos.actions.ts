@@ -5,7 +5,16 @@ export const crear = createAction(
   props<{ texto: string }>()
 );
 
+export const toggle = createAction(
+  '[TODO] Toggle Todo',
+  props<{ id: number }>()
+);
+
 export const editar = createAction(
-  '[TODO] Edit todo',
-  props<{ texto: string }>()
+  '[TODO] Editar Todo',
+  props<{ id: number; texto: string }>()
+);
+export const eliminar = createAction(
+  '[TODO] Eliminar Todo',
+  props<{ id: number }>()
 );
