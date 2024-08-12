@@ -4,6 +4,15 @@
     <app-todo-add style="width: 100%"></app-todo-add>
     <div class="todolist__subcontainer">
       <h2 class="todolist__h2">Tareas</h2>
+      <div class="todolist__subcontainer--mark">
+        <input
+          type="checkbox"
+          id="toggle-all"
+          class="toggle-all"
+          (click)="toggleAll()"
+        />
+        <label for="toggle-all">Mark all as complete</label>
+      </div>
       <app-todo-list></app-todo-list>
     </div>
     <app-todo-footer></app-todo-footer>

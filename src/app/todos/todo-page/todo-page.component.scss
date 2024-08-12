@@ -25,4 +25,10 @@
     color: red;
     text-align: center;
   }
+  &__subcontainer--mark {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
 }
